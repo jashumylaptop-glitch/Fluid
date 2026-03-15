@@ -44,7 +44,7 @@ GEMINI_MODEL=gemini-2.0-flash
 Start the backend:
 
 ```bash
-node server.js
+npm run start
 ```
 
 The API runs on `http://localhost:5000`.
@@ -54,7 +54,7 @@ The API runs on `http://localhost:5000`.
 From `backend/`:
 
 ```bash
-node seed.js
+npm run seed
 ```
 
 Default seeded accounts:
@@ -84,15 +84,27 @@ npm run preview
 npm run lint
 ```
 
+## Available Backend Commands
+
+From `backend/`:
+
+```bash
+npm run start
+npm run dev
+npm run seed
+npm run seed:related
+npm run check:db
+npm run test:api
+```
+
 ## Typical Local Workflow
 
 1. Start MongoDB.
-2. Run `node server.js` inside `backend/`.
+2. Run `npm run start` inside `backend/`.
 3. Run `npm run dev` inside `frontend/`.
-4. Optionally run `node seed.js` inside `backend/` to load demo data.
+4. Optionally run `npm run seed` inside `backend/` to load demo data.
 
 ## Notes
 
 - The chatbot can run without Gemini configured, but it falls back to basic replies.
-- The backend currently starts with `node server.js`; there is no npm start script yet.
 - Root `node_modules` are ignored from Git, along with frontend and backend dependency folders.

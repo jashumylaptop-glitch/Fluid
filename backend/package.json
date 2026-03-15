@@ -6,6 +6,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "seed:related": "node seed_related.js",
+    "check:db": "node check_db.js",
+    "test:api": "node test_api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

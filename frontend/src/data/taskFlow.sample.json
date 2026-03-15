@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "title": "Binary Tree Implementation",
+      "subject": "Data Structures",
+      "dueLabel": "Today",
+      "status": "pending",
+      "dotTone": "urgent"
+    },
+    {
+      "title": "Matrix Operations Report",
+      "subject": "Linear Algebra",
+      "dueLabel": "Tomorrow",
+      "status": "pending",
+      "dotTone": "soon"
+    },
+    {
+      "title": "Research Paper Draft",
+      "subject": "AI Seminar",
+      "dueLabel": "Mar 5",
+      "status": "pending",
+      "dotTone": "normal"
+    },
+    {
+      "title": "Sorting Algorithms Quiz",
+      "subject": "Data Structures",
+      "dueLabel": "Completed",
+      "status": "completed",
+      "dotTone": "normal"
+    },
+    {
+      "title": "Lab Report #3",
+      "subject": "Computer Networks",
+      "dueLabel": "Completed",
+      "status": "completed",
+      "dotTone": "normal"
+    }
+  ]
+}

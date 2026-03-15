@@ -1,0 +1,216 @@
+{
+  "stats": {
+    "totalStudents": 156,
+    "activeCourses": 8,
+    "averageAttendance": 87,
+    "avgGrade": "B+"
+  },
+  "todaySchedule": [
+    {
+      "subject": "Advanced Mathematics",
+      "time": "09:00 - 10:30",
+      "room": "Room 204",
+      "students": 32
+    },
+    {
+      "subject": "Physics Lab",
+      "time": "11:00 - 12:30",
+      "room": "Lab 3",
+      "students": 24
+    },
+    {
+      "subject": "Calculus II",
+      "time": "14:00 - 15:30",
+      "room": "Room 108",
+      "students": 28
+    }
+  ],
+  "courses": [
+    {
+      "name": "Advanced Mathematics",
+      "students": 32,
+      "schedule": "Mon, Wed, Fri — 9:00 AM",
+      "status": "Active"
+    },
+    {
+      "name": "Physics Lab",
+      "students": 24,
+      "schedule": "Tue, Thu — 11:00 AM",
+      "status": "Active"
+    },
+    {
+      "name": "Calculus II",
+      "students": 28,
+      "schedule": "Mon, Wed — 2:00 PM",
+      "status": "Active"
+    },
+    {
+      "name": "Computer Science 101",
+      "students": 30,
+      "schedule": "Tue, Thu — 9:00 AM",
+      "status": "Active"
+    },
+    {
+      "name": "English Literature",
+      "students": 22,
+      "schedule": "Mon, Wed, Fri — 11:00 AM",
+      "status": "Upcoming"
+    },
+    {
+      "name": "Chemistry",
+      "students": 26,
+      "schedule": "Tue, Thu — 2:00 PM",
+      "status": "Active"
+    }
+  ],
+  "attendanceOverview": [
+    {
+      "course": "Advanced Mathematics",
+      "present": 30,
+      "total": 32,
+      "percent": 94
+    },
+    {
+      "course": "Physics Lab",
+      "present": 22,
+      "total": 24,
+      "percent": 92
+    },
+    {
+      "course": "Calculus II",
+      "present": 25,
+      "total": 28,
+      "percent": 89
+    },
+    {
+      "course": "Computer Science 101",
+      "present": 28,
+      "total": 30,
+      "percent": 93
+    },
+    {
+      "course": "English Literature",
+      "present": 18,
+      "total": 22,
+      "percent": 82
+    },
+    {
+      "course": "Chemistry",
+      "present": 23,
+      "total": 26,
+      "percent": 88
+    }
+  ],
+  "gradesOverview": [
+    {
+      "studentId": "STU-EXAMPLE-1",
+      "student": "Aarav Patel",
+      "course": "Mathematics",
+      "midterm": "A",
+      "final": "A",
+      "overall": "A"
+    },
+    {
+      "studentId": "STU-EXAMPLE-2",
+      "student": "Sofia Hernandez",
+      "course": "Physics",
+      "midterm": "B+",
+      "final": "B",
+      "overall": "B+"
+    },
+    {
+      "studentId": "STU-EXAMPLE-3",
+      "student": "Liam Chen",
+      "course": "Computer Science",
+      "midterm": "A-",
+      "final": "A",
+      "overall": "A-"
+    },
+    {
+      "studentId": "STU-EXAMPLE-4",
+      "student": "Mira Johnson",
+      "course": "English Literature",
+      "midterm": "B-",
+      "final": "B",
+      "overall": "B"
+    },
+    {
+      "studentId": "STU-EXAMPLE-5",
+      "student": "Noah Kim",
+      "course": "Chemistry",
+      "midterm": "A",
+      "final": "A-",
+      "overall": "A"
+    },
+    {
+      "studentId": "STU-EXAMPLE-6",
+      "student": "Zara Williams",
+      "course": "Mathematics",
+      "midterm": "C",
+      "final": "C+",
+      "overall": "C+"
+    },
+    {
+      "studentId": "STU-EXAMPLE-7",
+      "student": "Ethan Brown",
+      "course": "Physics",
+      "midterm": "B",
+      "final": "B+",
+      "overall": "B+"
+    }
+  ],
+  "messagesOverview": [
+    {
+      "studentId": "STU-EXAMPLE-1",
+      "from": "Mrs. Patel",
+      "subject": "Aarav's progress report",
+      "preview": "I wanted to discuss Aarav's recent performance in Mathematics...",
+      "date": "2026-02-28T10:20:00.000Z",
+      "isNew": true
+    },
+    {
+      "studentId": "STU-EXAMPLE-6",
+      "from": "Mr. Williams",
+      "subject": "Zara's attendance",
+      "preview": "Zara has been absent for the past 3 days. Could we schedule a meeting?",
+      "date": "2026-02-28T09:30:00.000Z",
+      "isNew": true
+    },
+    {
+      "studentId": "STU-EXAMPLE-0",
+      "from": "Admin Office",
+      "subject": "Schedule change notification",
+      "preview": "Please note that Friday classes will be rescheduled to...",
+      "date": "2026-02-28T07:00:00.000Z",
+      "isNew": false
+    },
+    {
+      "studentId": "STU-EXAMPLE-4",
+      "from": "Mrs. Johnson",
+      "subject": "Meeting request",
+      "preview": "I'd like to discuss Mira's upcoming assignments and how we can...",
+      "date": "2026-02-27T15:00:00.000Z",
+      "isNew": false
+    }
+  ],
+  "roster": [
+    {
+      "studentId": "STU-EXAMPLE-1",
+      "fullName": "Aarav Patel",
+      "email": "aarav.p@school.edu",
+      "course": "Mathematics",
+      "grade": "A",
+      "attendance": 96,
+      "status": "Excellent"
+    },
+    {
+      "studentId": "STU-EXAMPLE-2",
+      "fullName": "Sofia Hernandez",
+      "email": "sofia.h@school.edu",
+      "course": "Physics",
+      "grade": "B+",
+      "attendance": 88,
+      "status": "Active"
+    }
+  ]
+}

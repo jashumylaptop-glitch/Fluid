@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "time": "08:00 - 09:30",
+      "subject": "Data Structures",
+      "location": "Room 204",
+      "teacher": "Dr. Mason"
+    },
+    {
+      "time": "10:00 - 11:30",
+      "subject": "Algorithms Lab",
+      "location": "CS Lab 3",
+      "teacher": "Prof. Clark"
+    },
+    {
+      "time": "13:30 - 15:00",
+      "subject": "Linear Algebra",
+      "location": "Room 112",
+      "teacher": "Ms. Anika"
+    },
+    {
+      "time": "15:00 - 16:30",
+      "subject": "AI Seminar",
+      "location": "Seminar Hall B",
+      "teacher": "Dr. Hayes"
+    }
+  ]
+}

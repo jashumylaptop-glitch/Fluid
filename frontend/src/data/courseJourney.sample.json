@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "subject": "Data Structures",
+      "grade": "A-",
+      "progress": 72,
+      "next": "Midterm Exam"
+    },
+    {
+      "subject": "Algorithms",
+      "grade": "B+",
+      "progress": 65,
+      "next": "Project Submission"
+    },
+    {
+      "subject": "Linear Algebra",
+      "grade": "A",
+      "progress": 58,
+      "next": "Quiz 4"
+    },
+    {
+      "subject": "AI Fundamentals",
+      "grade": "A-",
+      "progress": 45,
+      "next": "Paper Review"
+    },
+    {
+      "subject": "Software Engineering",
+      "grade": "A",
+      "progress": 80,
+      "next": "Sprint Demo"
+    }
+  ]
+}
